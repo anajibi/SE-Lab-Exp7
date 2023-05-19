@@ -38,3 +38,7 @@ Instance از نوع lexicalAnalyzer میسازیم و از آن برای اسک
 این سوئیچ کیس نیست.
 
 ### یک مورد Separate Query from Modifier
+در تابع getNextParameter در کلاس Method علاوه بر بازگرداندن یک پارامتر، index نیز یکی اضافه شده است، این یک مورد از جاهایی است که میتوانیم الگوی 
+Separate Query from Modifier را اعمال کنیم، به این شکل که یک تابع دیگر تعریف میکنیم که index را افزایش دهد و این تابع را صدا میزنیم.
+
+### 

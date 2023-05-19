@@ -177,7 +177,13 @@ public class SymbolTable {
         }
 
         private Symbol getNextParameter() {
-            return parameters.get(orderdParameters.get(index++));
+            Symbol nextParam = parameters.get(orderdParameters.get(index));
+            addParameter();
+            return nextParam;
+        }
+
+        private void addParameter(){
+            index++;
         }
     }
 
