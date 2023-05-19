@@ -7,7 +7,7 @@ import scanner.type.Type;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class lexicalAnalyzer {
+ class lexicalAnalyzer {
     private Matcher matcher;
 
     public lexicalAnalyzer(java.util.Scanner sc) {
