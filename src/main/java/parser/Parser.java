@@ -9,6 +9,7 @@ import java.util.Stack;
 import Log.Log;
 import codeGenerator.CodeGeneratorFacade;
 import errorHandler.ErrorHandler;
+import parser.action.Action;
 import scanner.ScannerFacade;
 import scanner.token.Token;
 
@@ -51,7 +52,7 @@ public class Parser {
                 Log.print(currentAction.toString());
                 //Log.print("");
 
-                switch (currentAction.action) {
+                switch (currentAction.getAction()) {
                     case shift:
                         parsStack.push(currentAction.number);
                         lookAhead = this.scanner.getNextToken();
