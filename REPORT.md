@@ -48,3 +48,5 @@ Separate Query from Modifier را اعمال کنیم، به این شکل که 
 2. Polymorphism instead of condition
 در کلاس Address در متد toString
 با استفاده از type خروجی مشخص شده است، برای حل این مشکل، این کلاس را Abstract کرده و 3 کلاس دیگر تعریف میکنیم تا بجای این کلاس مورد استفاده قرار بگیرند و کد را اصلاح میکنیم
+3. Self Encapsulate Field
+ در کلاس SymbolTable برای فیلد mem این بازآرایی را انجام دادیم.
